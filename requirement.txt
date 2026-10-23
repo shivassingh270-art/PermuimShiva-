@@ -1,0 +1,16 @@
+# requirements.txt for Shiva-Bomber.py
+# Python 3.8+ recommended
+
+# Telegram Bot Framework
+pyTelegramBotAPI>=4.14.0
+
+# Async HTTP Client (for bombing requests)
+aiohttp>=3.9.0
+
+# Required by pyTelegramBotAPI for some features
+requests>=2.31.0
+
+# Optional but recommended for faster JSON parsing (aiohttp optional dependency)
+ujson>=5.8.0
+
+# SQLite3 is built into Python standard library - no install needed
